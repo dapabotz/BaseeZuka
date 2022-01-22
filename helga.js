@@ -338,7 +338,7 @@ let settingstatus = 0;
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await helga.setStatus(`❄️Base Helga | ⛈️Running Time : ${uptime}`).catch((_) => _);
+await helga.setStatus(`❄️Base Dapaa | ⛈️Running Time : ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
 		idttt = []
@@ -643,8 +643,8 @@ options
 );
 };
 
-const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya, Bot Ini Di Susun Oleh Helga Ilham`
-const daftar2 = '```Ketik Tombol Di Bawah Untuk Mendaftar Ke Database Helga Zex```'
+const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya, Bot Ini Di Susun Oleh Dapaa`
+const daftar2 = '```Ketik Tombol Di Bawah Untuk Mendaftar Ke Database Yanz Zex```'
 const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🌸𝙍𝙀𝙂𝙄𝙎𝙏𝙍𝙀𝘿 `,},type: 1,},]
 
 const createSerial = (size) => {
@@ -1122,8 +1122,8 @@ Jika sudah dipahami rules-nya, silakan ketik *.menu* untuk memulai!
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan ZukaChan-
 😖🙏
 
-For GitHub : https://github.com/HelgaIlham
-YouTube Helga : https://youtube.com/c/HelgaZexs妥
+For GitHub : MODAL DONG BANG MASA MINTA MULU :V
+YouTube Helga : https://youtube.com/妥
 `
 sendButLocation(from, `${menu}`, "*ZukaChan*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
@@ -1176,7 +1176,7 @@ Untuk Menampilkan Menu Bot
 _⫹⫺🎯Library : Baileys-script_
 _⫹⫺🍰Version : 1.0.0_
 _⫹⫺🍧Language : Javascript_
-_⫹⫺📯Author : Helga Zex's_
+_⫹⫺📯Author : Yanz Zex's_
 _⫹⫺💬Time : ${timeWib} WIB_
 
 
@@ -1254,7 +1254,7 @@ _⫹⫺💬Time : ${timeWib} WIB_
 │ • ${prefix}attp
 ╰────
 `
-sendButLocation(from, `${menu}`, `${uwu}Big Thanks To\n\nAllah SWT\nMy Parrent\nZukaChan\nHelga Ilham\nAll Creator Bot Wa${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}about`,buttonText:{displayText:'ABOUT🌱'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, `${uwu}Big Thanks To\n\nAllah SWT\nMy Parrent\nZukaChan\nYanz Gz!!\nAll Creator Bot Wa${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}about`,buttonText:{displayText:'ABOUT🌱'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case 'menu':
         case 'help':
@@ -1272,7 +1272,7 @@ _⫹⫺🧸Nama : ${pushname}_
 _⫹⫺📬Bio User : ${stst}_
 _⫹⫺🧰Nomor : @${stod.split('@')[0]}_
 `
-sendButLocation(from, `${menu}`, `${uwu}Base : Helga\nBase Ini Sedang Dalam Tahap Pengembangan, Gunakan Bot Dengan Sebaik Mungkin!${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'MENU🌸'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'AUTHOR🍁'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, `${uwu}Base : Yanz\nBase Ini Sedang Dalam Tahap Pengembangan, Gunakan Bot Dengan Sebaik Mungkin!${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'MENU🌸'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'AUTHOR🍁'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case 'bugreport':
               if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
@@ -1301,7 +1301,7 @@ mhan = await helga.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*©Helga Zex*', 
+footerText:'Terimakasih Sudah Mendaftar\n*©Dapa Zex*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -1413,7 +1413,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*©Helga Zex*',
+    footerText: '*©Dapaa Zex*',
     buttons: buttons,
     headerType: 1
 }
@@ -1433,7 +1433,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*ZukaChan*',
+    footerText: '*Dapaa*',
     buttons: buttons,
     headerType: 1
 }
@@ -1445,7 +1445,7 @@ case 'jadibot':
 if (!isRegistered) return reply(`Registrasi dulu Kak ketik .verify`)
 menu = `Enak aja lu mau numpang sewa lah :v`
 katalog(menu)
-sendButLocation(from, `Hai ${pushname} ☺️`, "*_© 𝙰𝚢𝚊𝚊 𝚅2.ೃ࿐_*", {jpegThumbnail:ofrply}, [{buttonId:`${prefix}sewa`,buttonText:{displayText:'SEWA 🎟️'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `Hai ${pushname} ☺️`, "*_© 𝚢𝚊𝚊nz 𝚅2.ೃ࿐_*", {jpegThumbnail:ofrply}, [{buttonId:`${prefix}sewa`,buttonText:{displayText:'SEWA 🎟️'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 break
 case 'stopjadibot':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
@@ -1618,7 +1618,7 @@ await helga.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*ZukaChan*',
+    footerText: '*Yanz Ganz*',
     buttons: punten,
     headerType: 1
 }
